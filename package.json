@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "rsync": "rsync -avz --exclude 'node_modules/' . pi@pi:~/sensor",
+    "rsync": "rsync -avz --exclude-from '.rsync-exclude' . pi@pi:~/sensor",
     "start": "node index"
   },
   "keywords": [],
