@@ -1,0 +1,17 @@
+{
+  "name": "pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rsync": "rsync -avz --exclude 'node_modules/' . pi@pi:~/sensor",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rpi-gpio": "^2.1.5"
+  }
+}
