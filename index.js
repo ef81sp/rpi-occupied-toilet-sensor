@@ -1,6 +1,6 @@
 const gpio = require('rpi-gpio');
 const PIN = 12;
-// gpio.setMode(gpio.MODE_BCM);
+
 let status = false;
 let isReady = false;
 
